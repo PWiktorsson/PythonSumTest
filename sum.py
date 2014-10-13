@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 
-def sum_func():
-    l = map(int,str(98237924))
-    print l , sum(l)
+def sum_func(digits):
+    l = map(int,str(digits))
+    #print l , sum(l)
     return sum(l)
